@@ -31,6 +31,6 @@ submitEl.addEventListener("click", function(e){
 })
 
 closeEl.addEventListener('click', function(e){
-    e.preventDefault()
+    e.preventDefault();
     document.getElementById("thank-you").style.display = 'none';
 })
